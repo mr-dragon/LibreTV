@@ -129,6 +129,33 @@ const API_SITES = {
         api: 'https://api.wujinapi.me',
         name: '无尽资源'
     },
+
+    //新加
+    iby: {
+        api: 'http://lbapiby.com',
+        name: 'lbapiby资源',
+        adult: true
+    },
+    hapi9: {
+        api: 'http://fhapi9.com',
+        name: 'fhapi9资源',
+        adult: true
+    },
+    bapi9: {
+        api: 'https://lbapi9.com',
+        name: 'lbapi9资源',
+        adult: true
+    },
+    md: {
+        api: 'https://91md.me',
+        name: '91md资源',
+        adult: true
+    },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com',
+        name: 'apilsbzy1资源',
+        adult: true
+    },
 };
 
 // 添加聚合搜索的配置选项
@@ -209,4 +236,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
